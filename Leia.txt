@@ -1,0 +1,16 @@
+Banco de dados: Postgres
+IDE: Eclipse
+
+Padrão:
+data: 2022-05-01
+hora: 20:00:00
+cpf: 111.111.111-11
+
+Adicionar o jdbc:
+- Se ja existir o jdbc no projeto:
+	Botao direito no ClinicaVet >> Propriedades >> Java Build Path >> setinha Modulepath >>
+	>> clica no postgresql-42.4.0.jar >> edit.. >> abre o arquivo >> apply and close
+
+- Se não existir o jdbc no projeto:
+	Botao direito no ClinicaVet >> Propriedades >> Java Build Path >> clica no Modulepath >>
+	>> Add External JARs... >> clica no postgresql-42.4.0.jar >> abre o arquivo >> apply and close
